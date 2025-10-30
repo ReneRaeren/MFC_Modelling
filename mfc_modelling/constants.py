@@ -1,0 +1,11 @@
+"""Physical constants and helper conversions."""
+
+R_UNIVERSAL = 8.314462618  # J/(mol*K)
+MOLAR_VOLUME_STP_SL = 22.71108  # standard litres per mole at 273.15 K, 1 atm
+STANDARD_TEMPERATURE_K = 298.15
+STANDARD_PRESSURE_BAR = 1.01325
+
+BAR_TO_PA = 1.0e5
+PA_TO_BAR = 1.0 / BAR_TO_PA
+SLPM_TO_MOL_PER_S = 1.0 / 60.0 / MOLAR_VOLUME_STP_SL
+MOL_PER_S_TO_SLPM = 60.0 * MOLAR_VOLUME_STP_SL
